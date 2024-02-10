@@ -39,9 +39,9 @@ spec:
           - mount
           - "{{ .Values.rclone.remote }}"
           - {{ .Values.rclone.path }}
-          - --config=/etc/rclone/rclone.conf
-          - --allow-non-empty
-          - --allow-other
+          - ""--config=/etc/rclone/rclone.conf"
+          - ""--allow-non-empty"
+          - ""--allow-other"
         {{- if .Values.rclone.readOnly }}
           - --read-only
         {{ end }}
