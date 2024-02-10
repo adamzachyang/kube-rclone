@@ -23,7 +23,6 @@ rclone:
   # mount options can be found here - https://rclone.org/commands/rclone_mount/#options
   additionalArgs:
     - --dir-cache-time=10s
-    - --vfs-cache-mode full
     - --vfs-cache-max-size 50G
     # - --buffer-size=1G
     # - --drive-chunk-size=256M
